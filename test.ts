@@ -4,3 +4,7 @@ export function DenoTest(num:number) {
     let res:number = (num * num) + f;
     return res  ; 
 }
+
+export function newfn ( ){
+ return 10;
+}
