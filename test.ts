@@ -1,4 +1,6 @@
+import { newfn } from "./newfn.ts"
 export function DenoTest(num:number) { 
-    let res:number = num * num;
+    let f = newfn(); 
+    let res:number = (num * num) + f;
     return res  ; 
 }
